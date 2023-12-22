@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Milk Chocolate",
+    "price": 2,
+    "grams": 100,
+    "description": "Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk.",
+    "imageUrl": "https://images.unsplash.com/photo-1610450949065-1f2841536c88?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMzA2OTg1NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500",
+    "originCountry": "Switzerland"
+  },
+  {
+    "name": "Dark Chocolate",
+    "price": 3,
+    "grams": 300,
+    "description": "Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter, without the milk found in milk chocolate.",
+    "imageUrl": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMzA2OTg5OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500",
+    "originCountry": "Belgium"
+  },
+  {
+    "name": "White Chocolate",
+    "price": 4,
+    "grams": 140,
+    "description": "White chocolate is a chocolate confection made from cocoa butter, sugar and milk solids.",
+    "imageUrl": "https://images.unsplash.com/photo-1614088685112-0a760b71a3c8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwMzA2OTk2Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=500",
+    "originCountry": "Switzerland"
+  }
+]
