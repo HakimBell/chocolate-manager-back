@@ -2,9 +2,9 @@
   "name": "chocolat-manager-back",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "node app.js",
+    "dev": "node ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

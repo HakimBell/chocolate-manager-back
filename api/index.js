@@ -26,6 +26,7 @@ const Product = mongoose.model("Product", productSchema);
 
 app.get("/", async (req, res) => {
   const products = await Product.find();
+  res.setHeader("Cache-Control", "s-max-age=1, stale-while-revalidate");
   res.json(products);
 });
 
