@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -10,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connexion à la base de données
-mongoose.connect("mongodb://127.0.0.1:27017/chocolateManager");
+mongoose.connect(process.env.MONGO_URL);
 
 const productSchema = new mongoose.Schema({
   name: String,
